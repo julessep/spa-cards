@@ -1,0 +1,30 @@
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	padding:  20px 0;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 0 auto;
+}
+
+#cardwrapper {
+	justify-content: flex-start;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	flex-direction: column;
+	width: 25%;
+	border: solid 2px mistyrose;
+	background-color: floralwhite;
+	text-align: center;
+	align-items: flex-end;
+	margin: 20px;
+	padding: 10px;
+
+}
+
+/*.removeCard {
+	padding: 4px;
+	margin-top: 80px;
+	align-items: baseline;
+}*/
